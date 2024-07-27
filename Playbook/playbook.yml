@@ -1,6 +1,0 @@
----
-- name: Deploy Nginx
-  hosts: server1
-  become: true
-  roles:
-    - nginx
