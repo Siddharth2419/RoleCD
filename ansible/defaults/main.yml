@@ -1,6 +1,3 @@
 ---
-- name: Deploy Nginx
-  hosts: server1
-  become: true
-  roles:
-    - nginx
+# Default variables for the role
+nginx_port: 80
